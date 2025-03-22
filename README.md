@@ -32,6 +32,8 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://imgur.com/gallery/project-3-walkthrough-d32Bgyg' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+https://imgur.com/gallery/project-3-walkthrough-d32Bgyg
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  ScreenToGif 
 <!-- Recommended tools:
