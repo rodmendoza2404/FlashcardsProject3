@@ -1,0 +1,136 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fdf5e6; 
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+
+.flashcard-app {
+  display: flex;              
+  flex-direction: column;   
+  justify-content: center;    
+  align-items: center;       
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.flashcard {
+  background-color: #fff;              
+  width: 400px;                  
+  max-width: 90%;                    
+  padding: 2rem;                        
+  border-radius: 8px;                  
+  text-align: center;               
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px;               
+  cursor: pointer;                    
+}
+
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Blue color */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: "Arial", sans-serif;
+  background-color: #fdf5e6;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.cardsCount {
+  margin-top: 10px;
+}
+
+.streakCount {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.flashcard {
+  background-color: #fffae5;
+  border: 2px solid #ffe09a;
+  border-radius: 8px;
+  width: 100%;
+  height: 180px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.guessContainer {
+  margin-bottom: 20px;
+}
+
+.input {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #008000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.masteredContainer {
+  margin-top: 20px;
+  text-align: left;
+}
